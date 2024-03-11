@@ -1,0 +1,14 @@
+title Shipping Ships
+participant main.js
+participant shippingShips.js
+participant haulerShips.js
+participant dockList.js
+
+main.js->shippingShips.js:can I have your list of ships?
+main.js<--shippingShips.js:sure, here you go
+
+main.js->haulerShips.js:can I have your list of haulers?
+main.js<--haulerShips.js:sure, here you go
+
+main.js->dockList.js:can I have your list of docks?
+main.js<--dockList.js:sure, here you go
