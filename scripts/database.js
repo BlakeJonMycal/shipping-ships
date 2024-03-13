@@ -1,16 +1,20 @@
 const database = {
     docks: [
-        { id: 1, location: "Shanghai, China", volume: "43.5"},
+        { id: 1, 
+            location: "Shanghai, China", 
+            volume: "43.5"
+        },
+
         { id: 2, location: "Busan, South Korea", volume: "21.6"},
         { id: 3, location: "Rotterdam, The Netherlands", volume: "14.35" },
         { id: 4, location: "Antwerp, Belgium", volume: "12.04" }
     ],
     haulers: [
         { id: 1, name: "Pioneering Spirit", dockID: 1},
-        { id: 2, name: "Boaty McBoatface", dockID: 4},
+        { id: 2, name: "Boaty McBoatface", dockID: 3},
         { id: 3, name: "Seawise Giant", dockID: 2},
         { id: 4, name: "MacDaddy Haul", dockID: 3},
-        { id: 5, name: "We Haul For Less", dockID: 5},
+        { id: 5, name: "We Haul For Less", dockID: 3},
         { id: 6, name: "We're Gonna Need a Bigger Haul", dockID: 2}
     ],
     ships: [

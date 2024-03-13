@@ -1,6 +1,6 @@
-import { HaulerList} from "./haulers"
-import { ShipList } from "./ships"
-import { DockList } from "./dockList"
+import { HaulerList} from "./haulers.js"
+import { ShipList } from "./ships.js"
+import { DockList } from "./dockList.js"
 const parentHTMLElement = document.querySelector("#container")
 
 const applicationHTML = `
